@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#taskList::-webkit-scrollbar{
+    display:none;
+}
+html, body {
+    overflow-x: hidden; /* Disable scrolling */
+    height: 100%; /* Ensure the content uses the full height of the viewport */
+}
